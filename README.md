@@ -1,2 +1,2 @@
-# advertisement-visibility-score-in-city-of-Toronto
+# Optimizing-Traffic-Sensor-Placement-in-the-City-of-Toronto-image-Optimizing-Traffic-Sensor-Placement
 Bio-inspired Algorithms ECE1724,FALL Course Project
