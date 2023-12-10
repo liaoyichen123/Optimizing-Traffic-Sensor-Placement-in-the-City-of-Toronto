@@ -6,7 +6,7 @@ data_folder = './data/'
 # File paths
 count_metadata_file = data_folder + 'count_metadata.csv'
 locations_file = data_folder + 'locations.csv'
-raw_data_file = data_folder + 'raw-data-2020-2029.csv'
+raw_data_file = data_folder + 'raw-data-2010-2019.csv'
 
 # Load CSV files
 count_metadata_df = pd.read_csv(count_metadata_file)

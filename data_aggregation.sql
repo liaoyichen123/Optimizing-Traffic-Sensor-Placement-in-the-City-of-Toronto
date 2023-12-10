@@ -13,7 +13,7 @@ SELECT location_id,
            nb_truck_l + wb_truck_r + wb_truck_t + wb_truck_l + eb_truck_r + eb_truck_t + eb_truck_l + sb_bus_r +
            sb_bus_t + sb_bus_l + nb_bus_r + nb_bus_t + nb_bus_l + wb_bus_r + wb_bus_t + wb_bus_l + eb_bus_r + eb_bus_t +
            eb_bus_l) AS total_counts
-FROM raw_data
+FROM raw_data where raw_data.count_date like '2022%'
 GROUP BY location_id,
          datetime(
                      strftime('%Y-%m-%d %H:', time_start) ||
